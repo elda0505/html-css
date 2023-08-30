@@ -1,17 +1,33 @@
 
 
-
+/*remove space around*/
+body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+/*header style*/
+header{
+    background-color: #fefaf0;
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+    
+}
 
 /* Basic styling for the navbar */
 .navbar {
-    background-color: #bae8a1;
+    background-color:  #fefaf0;
     overflow: hidden;
+    margin: 0;
+    
+   
   }
 
 
 /* Style for navbar links */
   .navbar a {
-    float: left;
+    float: inline-end;
     display: block;
     color: white;
     text-align: center;
@@ -33,10 +49,10 @@
 
   /* Style for dropdown button */
   .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 26.5px;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(4, 0, 0);
     background-color: inherit;
     padding: 14px 16px;
     text-align: center;
@@ -57,4 +73,21 @@
  /* Show dropdown content on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  h2{
+    text-align: center;
+  
+  }
+
+  .cartbtn{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: rgb(88, 86, 86);
+    background-color: inherit;
+    padding: 14px 16px;
+    text-align: center;
+    cursor: pointer;
+
   }
