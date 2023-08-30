@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+
 
 /*remove space around*/
 body{
@@ -9,9 +12,9 @@ body{
 /*header style*/
 header{
     background-color: #fefaf0;
-    display: flex;
+    display:flex;
     justify-content:space-between;
-    margin: 0;
+    
     
 }
 
@@ -20,7 +23,8 @@ header{
     background-color:  #fefaf0;
     overflow: hidden;
     margin: 0;
-    
+    font-family: 'Red Hat Display', sans-serif;
+
    
   }
 
@@ -49,12 +53,13 @@ header{
 
   /* Style for dropdown button */
   .dropdown .dropbtn {
-    font-size: 26.5px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
     border: none;
     outline: none;
     color: rgb(4, 0, 0);
     background-color: inherit;
-    padding: 14px 16px;
+    padding: 20px 80px;
     text-align: center;
     cursor: pointer;
   }
@@ -75,11 +80,16 @@ header{
     display: block;
   }
 
+  
+  /* style of h2*/
   h2{
     text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+
   
   }
 
+  /*style of cart button*/
   .cartbtn{
     font-size: 15px;
     border: none;
@@ -89,5 +99,6 @@ header{
     padding: 14px 16px;
     text-align: center;
     cursor: pointer;
+    padding: 20px 80px;
 
   }
