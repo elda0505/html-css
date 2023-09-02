@@ -80,7 +80,7 @@ header{
     display: block;
   }
 
-  
+
   /* style of h2*/
   h2{
     text-align: center;
@@ -102,3 +102,17 @@ header{
     padding: 20px 80px;
 
   }
+
+  /*style of intro*/
+
+.intro{
+  
+    background-image: url("../img/foto.jpg");  
+    width:1800px;
+    height:650px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 1700px;
+    
+
+}
