@@ -20,9 +20,9 @@ header{
 
 /* Basic styling for the navbar */
 .navbar {
-    background-color:  #fefaf0;
+    background-color: #fefaf0;
     overflow: hidden;
-    margin: 0;
+    margin: 0px;
     font-family: 'Red Hat Display', sans-serif;
 
    
@@ -33,7 +33,7 @@ header{
   .navbar a {
     float: inline-end;
     display: block;
-    color: white;
+    color: rgb(6, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,10 +49,13 @@ header{
   .dropdown {
     float: left;
     overflow: hidden;
+    background-color: #fefaf0;
   }
 
   /* Style for dropdown button */
   .dropdown .dropbtn {
+  
+
     font-size: 25px;
     font-family: 'Red Hat Display', sans-serif;
     border: none;
@@ -62,16 +65,18 @@ header{
     padding: 20px 80px;
     text-align: center;
     cursor: pointer;
+    background-color: #fefaf0;
   }
 
    /* Style for dropdown content */
   .dropdown-content {
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
+    position:absolute;
+    background-color: #fefaf0;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-left: 35px;
   }
 
 
@@ -161,5 +166,5 @@ header{
 
     background-color: #000800; /* Green */
     color: white;
-
+   transition-duration: 1.5s;
 }
