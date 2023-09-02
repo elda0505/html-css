@@ -111,8 +111,31 @@ header{
     width:1800px;
     height:650px;
     background-repeat: no-repeat;
-    display: flex;
     background-size: 1700px;
+    background-attachment:scroll;
+ 
+
+}
+
+ h1 {
+    color: #f9f9f9;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 170px;
+    padding: 200px 20px;
+    margin: 0px;
+
+    }
     
 
+
+
+
+
+ p{
+    color:#ddd;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0px;
+ 
+
+  
 }
