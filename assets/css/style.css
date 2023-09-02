@@ -7,14 +7,16 @@
 body{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
   }
+  
   
 /*header style*/
 header{
     background-color: #fefaf0;
     display:flex;
     justify-content:space-between;
-    
+    margin: 0px;
     
 }
 
@@ -108,6 +110,13 @@ header{
 
   }
 
+/*change color of cart button*/
+  .cartbtn:hover
+  {color:#ddd;
+
+  }
+ 
+ 
   /*style of intro*/
 
 .intro{
@@ -122,6 +131,8 @@ header{
 
 }
 
+
+/*style of h1*/
  h1 {
     color: #f9f9f9;
     font-family: 'Red Hat Display', sans-serif;
@@ -133,9 +144,7 @@ header{
     
 
 
-
-
-
+/*style of paragraph*/
  p{
     color:#ddd;
     font-family: 'Red Hat Display', sans-serif;
@@ -147,6 +156,7 @@ header{
   
 }
 
+/*style of shop now button*/
 .shopnow{
     font-size: 15px;
     font-family: 'Red Hat Display', sans-serif;
@@ -162,9 +172,16 @@ header{
 
 }
 
+/*change color of shop now button*/
+
 .shopnow:hover{
 
     background-color: #000800; /* Green */
     color: white;
    transition-duration: 1.5s;
+}
+
+.slide
+{
+    background-color: #fefaf0;
 }
