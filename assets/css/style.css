@@ -133,15 +133,20 @@ header{
 
 
 /*style of h1*/
- h1 {
+ .intro h1 {
     color: #f9f9f9;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 170px;
     padding: 200px 55px 0px 70px;
     margin: 0px;
+    text-shadow:  20px 8px 16px 0px rgba(0,0,0,0.2); 
 
     }
     
+    .intro h1:hover{
+        color: black;
+        transition-duration: 1.5s;
+    }
 
 
 /*style of paragraph*/
@@ -178,10 +183,36 @@ header{
 
     background-color: #000800; /* Green */
     color: white;
-   transition-duration: 1.5s;
+    transition-duration: 1.5s;
 }
 
-.slide
+/*style of pics container*/
+
+
+.container
 {
-    background-color: #fefaf0;
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.box{
+
+   width: 250px;
+   margin: 0 10px;
+   box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+
+}
+
+.box img{
+
+   
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+
 }
