@@ -225,3 +225,31 @@ header{
  
 
 }
+
+.container1 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+
+   }
+   
+   
+   .image>img {
+    width: 500px;
+    height: 600px;
+    float: left;
+    border-radius: 35px;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left: 17%;
+
+
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left:90px;
+    padding-top: 20%;
+    float: left;
+  }
