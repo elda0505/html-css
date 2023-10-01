@@ -2,6 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 
 
+@keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
 
 /*remove space around*/
 body{
@@ -231,6 +252,7 @@ header{
     align-items: center; 
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
+    background-color: #7c8479;
 
    }
    
@@ -242,9 +264,11 @@ header{
     border-radius: 35px;
     margin-top:10%;
     margin-bottom:10%;
-    margin-left: 15%;
+    margin-left: 25%;
     box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
-
+    
+    -webkit-animation: slide-left 2.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 2.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
   }
   
@@ -253,7 +277,12 @@ header{
     padding-left:90px;
     float: left;
     font-family: 'Red Hat Display', sans-serif;
-    margin:50px 80px 0px 70px;
+    margin:50px 100px 0px 15px;
+    
+
+     
+     webkit-animation: slide-right 2.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-right 2.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
   .text p
@@ -292,3 +321,4 @@ header{
     color: rgb(0, 0, 0);
     transition-duration: 1.5s;
 }
+
