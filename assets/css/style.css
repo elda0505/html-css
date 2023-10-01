@@ -567,22 +567,25 @@ input[type="submit"]:hover {
     font-weight: bold;  
     font-size: 15px;  
     font-family: 'Red Hat Display', sans-serif;
-   margin-left:220px;
+   margin-left:240px;
    font-color: black;
+   margin-top: 0px;
     }  
 
 a{
     color:black;
 }
 
+
 a:hover{
     color:#747373;
 }
     .Menu1 h3{
 
-        margin-left:260px;
+        margin-left:280px;
         font-family: 'Red Hat Display', sans-serif;
-
+        margin-top: -120px;
+        
 
     }
 
@@ -599,6 +602,8 @@ a:hover{
    margin-left:200px;
    margin-right: -20px;
    font-color: black;
+   margin-top: -170px;
+   
 }
 
     div.container2
@@ -611,7 +616,18 @@ a:hover{
 }
 
 
+.footer p{
+    font-size:20px;
+    color: rgb(70, 69, 69);
+    margin-left:-70px;
+}
 
 
+    .contacttitle{
 
-    
+        background-color: #acafa4;
+        padding-top: 20px;;
+    }
+    .footer{
+        background-color: #ddd;
+    }
