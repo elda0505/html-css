@@ -252,7 +252,8 @@ header{
     align-items: center; 
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
-    background-color: #7c8479;
+    background-color: #acafa4;
+    ;
 
    }
    
@@ -475,15 +476,7 @@ display: flex;
     margin-right: 0px;
 }
 
-
-
-
-
-
-
-
-
-                
+           
         
  .mission .parapgraph p{
 
@@ -495,3 +488,76 @@ display: flex;
 
 
 }
+
+
+
+
+#contact{
+
+
+padding-top:20px;
+ background-color: #acafa4;
+
+
+}
+
+#contact h2{
+
+
+    margin-bottom: 50px;
+}
+
+
+
+
+
+label
+{
+    padding-top: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+
+
+
+
+
+}
+
+input,
+textarea {
+    padding-top: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 5px 0px 5px 10px;
+    border: 1px solid #080000;
+    border-radius: 5px;
+    
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: #777777;
+}
+
