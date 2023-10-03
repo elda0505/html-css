@@ -649,6 +649,13 @@ a:hover{
             
         }
 
+        .navbar{
+          font-size: 15px;
+
+        }
+        .dropbtn{
+            font-size: 15px;
+        }
        
           
         .intro {
@@ -777,6 +784,179 @@ a:hover{
     }
     
     
+    .mission{
+  
+        background-color: #ddd;
+        width: 90%;
+        padding: 90px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    
+    }
+    
+    
+    .mission h1{
+        
+        text-align: center;
+        font-family: 'Red Hat Display', sans-serif;
+        color: rgb(0, 0, 0);
+        margin-right: 00px;
+        
+    }
+    
+    
+    .mission .icons{
+     
+        display: flex;
+        flex-direction: column;
+       margin-left: 100px;
+       
+      
+    
+    }
+    
+    .mission .icons .icon1
+    {
+       
+        font-size: 60px;
+        margin-right: 30%;  
+        margin-left: 0px;
+        
+    }
+    
+    
+    
+    
+    .mission .icons .icon2
+    {
+     
+        font-size: 60px;
+        margin-right: 30%;  
+    
+       
+    }
+    
+    .mission .icons .icon3
+    {
+        font-size: 60px;
+        margin-right: 30%;  
+        
+    
+    
+    }
+    
+    .mission .icons .icon4
+    
+    {
+        font-size: 60px;
+        margin-right: 30%;  
+    
+    
+    }
+    
+    .mission .icons .icon5
+    {
+        font-size: 60px;
+        margin-right: 30%;  
+    
+    
+    
+    }
+    
+    
+    
+    .mission p {
+    
+    color: black;
+    
+    margin-top: 50px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 00px;
+    margin-bottom: -50px;
+        
+    
+    }
+    
+    
+    
+    .mission .titles{
+    display: flex;
+    flex-direction: column;
+     margin-left: 0px;
+     display: none;
+    }
+    
+    .mission .titles p{
+    
+       
+        margin-top: 50px; 
+        margin-right: 40px;
+    
+    }
+    
+    
+    .mission .titles .p1 p
+    {
+    
+      margin-left: 0px;
+    
+    
+    }
+    
+    
+    
+    
+    .mission .titles .p2 p
+    {
+    
+        margin-left: -29px;
+        margin-right: 0px;
+    
+    
+    }
+    
+    
+    
+    .mission .titles .p3 p
+    
+    {
+        margin-left: 55px;
+        margin-right: 0px;
+    }
+    
+    
+    .mission .titles .p4 p
+    
+    {
+        margin-left: 68px;
+        margin-right: 0px;
+    }
+    
+    
+    .mission .titles .p5 p
+    
+    {
+        margin-left: 53px;
+        margin-right: 0px;
+    }
+    
+               
+            
+     .mission .parapgraph p{
+    
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 25px;
+        margin-top: 50px;
+       
+    
+    
+    }
     
    
     }
