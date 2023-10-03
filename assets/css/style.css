@@ -631,3 +631,91 @@ a:hover{
     .footer{
         background-color: #ddd;
     }
+
+
+
+    /*MOBILE*/
+
+    @media screen and (max-width: 600px) {
+
+
+        header{
+            background-color: #fefaf0;
+            display:inline-table;
+            align-items: center; /* Center items horizontally */
+            text-align: center; /* Center text */-content:space-between;
+            padding-right: 50px;
+            padding-left: 15px;;
+            
+        }
+
+       
+          
+        .intro {
+            width: 100%;
+            height: 40vh; 
+            display: inline-table;
+        }
+        .intro h1 {
+            font-size: 50px; 
+            margin-top: -50px;
+            padding-top: -70px;
+            margin-top: -150px;
+            margin-left: -20px;
+        }
+        
+        p {
+            font-size: 20px; 
+            margin-left: -28px;
+        }
+        
+        .shopnow {
+            font-size: 3vw; 
+            text-align: left;
+           
+        }
+
+
+
+        .container
+    {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        background-color: #ddd;
+    }
+
+    .box{
+
+        width: 250px;
+        margin: 0 50px;
+        justify-content: center;
+        align-items: center;
+        padding-right: -50px;
+           
+     
+     }
+     
+     .box img{
+     
+        
+         display: block;
+         width: 50%;
+         border-radius: 10px;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 10px;
+         margin-top: 20px;
+            
+     
+     }
+   
+    }
+
+    
+
+
+
