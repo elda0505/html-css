@@ -712,6 +712,72 @@ a:hover{
             
      
      }
+     .container1 {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr;
+        column-gap: 5px;
+        background-color: #acafa4;
+        
+    
+       }
+       
+       
+       .image>img {
+        width: 200px;
+        height: 200px;
+        border-radius: 35px;
+        margin-top:10%;
+        margin-bottom:10%;
+        margin-left: 110px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+        float:none;
+        
+        
+    
+      }
+
+      .text h1 {
+        font-size: 20px;
+        padding-left:-250px;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-left: -190px;
+        float:none;
+    
+         
+         
+      }
+    
+      .text p
+      {
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 15px;
+        color: black;
+        margin-left: -190px;;
+        float:none;
+        flex-direction: column;
+        text-wrap: wrap;
+      }
+    
+      .shopnoww{
+        font-size: 10px;
+        font-family: 'Red Hat Display', sans-serif;
+        border: 2px #ddd;
+        color: rgb(254, 254, 254);
+        background-color: #000000;
+        padding: 10px 10px;
+        text-align: center;
+        cursor: pointer;
+        margin-left: -190px;
+        margin-right: 100px;
+        border-radius: 10px;
+        float:none;
+    
+    
+    }
+    
+    
+    
    
     }
 
